@@ -871,29 +871,10 @@ dtb-$(CONFIG_MX6UL) += \
 	imx6ull-kontron-n641x-s.dtb
 
 dtb-$(CONFIG_MX6ULL) += \
-	imx6ull-14x14-ddr3-val.dtb \
-	imx6ull-14x14-ddr3-val-epdc.dtb \
-	imx6ull-14x14-ddr3-val-emmc.dtb \
-	imx6ull-14x14-ddr3-val-gpmi-weim.dtb \
-	imx6ull-14x14-ddr3-val-tsc.dtb \
 	imx6ull-14x14-evk.dtb \
 	imx6ull-14x14-evk-emmc.dtb \
-	imx6ull-14x14-evk-gpmi-weim.dtb \
-	imx6ull-9x9-evk.dtb \
-	imx6ull-colibri.dtb \
-	imx6ull-colibri-emmc.dtb \
-	imx6ull-myir-mys-6ulx-eval.dtb \
-	imx6ull-seeed-npi-imx6ull-dev-board.dtb \
-	imx6ull-phytec-segin-ff-rdk-emmc.dtb \
-	imx6ull-dart-6ul.dtb \
-	imx6ull-somlabs-visionsom.dtb \
-	imx6ulz-14x14-evk.dtb \
-	imx6ulz-14x14-evk-emmc.dtb \
-	imx6ulz-14x14-evk-gpmi-weim.dtb
 
 dtb-$(CONFIG_ARCH_MX6) += \
-	imx6-apalis.dtb \
-	imx6-colibri.dtb
 
 dtb-$(CONFIG_O4_IMX_NANO) += \
 	o4-imx-nano.dtb
