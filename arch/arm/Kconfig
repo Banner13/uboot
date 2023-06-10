@@ -2107,23 +2107,11 @@ source "arch/arm/cpu/armv7/ls102xa/Kconfig"
 
 source "arch/arm/mach-imx/mx6/Kconfig"
 
-source "arch/arm/mach-imx/imxrt/Kconfig"
-
-source "arch/arm/mach-imx/mxs/Kconfig"
-
-#source "arch/arm/mach-omap2/Kconfig"
-
-source "arch/arm/cpu/armv8/fsl-layerscape/Kconfig"
-
 source "arch/arm/mach-qemu/Kconfig"
 
 source "arch/arm/cpu/armv7/vf610/Kconfig"
 
 source "arch/arm/cpu/armv7/Kconfig"
-
-source "arch/arm/cpu/armv8/Kconfig"
-
-source "arch/arm/cpu/armv8/crypto/Kconfig"
 
 source "arch/arm/mach-imx/Kconfig"
 
