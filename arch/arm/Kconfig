@@ -2103,19 +2103,19 @@ config SYS_KWD_CONFIG
 	  Path within the source directory to the kwbimage.cfg file to use
 	  when packaging the U-Boot image for use.
 
-source "arch/arm/cpu/armv7/ls102xa/Kconfig"
+#source "arch/arm/cpu/armv7/ls102xa/Kconfig"
 
 source "arch/arm/mach-imx/mx6/Kconfig"
 
 source "arch/arm/mach-qemu/Kconfig"
 
-source "arch/arm/cpu/armv7/vf610/Kconfig"
+#source "arch/arm/cpu/armv7/vf610/Kconfig"
 
 source "arch/arm/cpu/armv7/Kconfig"
 
 source "arch/arm/mach-imx/Kconfig"
 
-source "board/armltd/total_compute/Kconfig"
+#source "board/armltd/total_compute/Kconfig"
 
 source "board/emulation/qemu-arm/Kconfig"
 
