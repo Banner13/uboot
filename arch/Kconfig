@@ -362,17 +362,17 @@ config SYS_DISABLE_DCACHE_OPS
 	 Note that, its up to the individual architectures to implement
 	 this functionality.
 
-config SYS_IMMR
-	hex "Address for the Internal Memory-Mapped Registers (IMMR) window"
-	depends on PPC || FSL_LSCH2 || FSL_LSCH3 || ARCH_LS1021A
-	default 0xFF000000 if MPC8xx
-	default 0xF0000000 if ARCH_MPC8313
-	default 0xE0000000 if MPC83xx && !ARCH_MPC8313
-	default 0x01000000 if ARCH_LS1021A || FSL_LSCH2 || FSL_LSCH3
-	default SYS_CCSRBAR_DEFAULT
-	help
-	  Address for the Internal Memory-Mapped Registers (IMMR) window used
-	  to configure the features of many Freescale / NXP SoCs.
+#config SYS_IMMR
+#	hex "Address for the Internal Memory-Mapped Registers (IMMR) window"
+#	depends on PPC || FSL_LSCH2 || FSL_LSCH3 || ARCH_LS1021A
+#	default 0xFF000000 if MPC8xx
+#	default 0xF0000000 if ARCH_MPC8313
+#	default 0xE0000000 if MPC83xx && !ARCH_MPC8313
+#	default 0x01000000 if ARCH_LS1021A || FSL_LSCH2 || FSL_LSCH3
+#	default SYS_CCSRBAR_DEFAULT
+#	help
+#	  Address for the Internal Memory-Mapped Registers (IMMR) window used
+#	  to configure the features of many Freescale / NXP SoCs.
 
 config SKIP_LOWLEVEL_INIT
 	bool "Skip the calls to certain low level initialization functions"
@@ -431,16 +431,16 @@ config TPL_SKIP_LOWLEVEL_INIT_ONLY
 	  normal CP15 init (such as enabling the instruction cache) is still
 	  performed.
 
-source "arch/arc/Kconfig"
+#source "arch/arc/Kconfig"
 source "arch/arm/Kconfig"
-source "arch/m68k/Kconfig"
-source "arch/microblaze/Kconfig"
-source "arch/mips/Kconfig"
-source "arch/nds32/Kconfig"
-source "arch/nios2/Kconfig"
-source "arch/powerpc/Kconfig"
+#source "arch/m68k/Kconfig"
+#source "arch/microblaze/Kconfig"
+#source "arch/mips/Kconfig"
+#source "arch/nds32/Kconfig"
+#source "arch/nios2/Kconfig"
+#source "arch/powerpc/Kconfig"
 source "arch/sandbox/Kconfig"
-source "arch/sh/Kconfig"
-source "arch/x86/Kconfig"
-source "arch/xtensa/Kconfig"
-source "arch/riscv/Kconfig"
+#source "arch/sh/Kconfig"
+#source "arch/x86/Kconfig"
+#source "arch/xtensa/Kconfig"
+#source "arch/riscv/Kconfig"
