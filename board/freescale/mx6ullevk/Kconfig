@@ -7,7 +7,7 @@ config SYS_VENDOR
 	default "freescale"
 
 config SYS_CONFIG_NAME
-	default "mx6ullevk"
+	default "huke_mx6ullevk"
 
 config IMX_CONFIG
 	default "board/freescale/mx6ullevk/imximage.cfg"
